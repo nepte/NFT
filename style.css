@@ -1,0 +1,72 @@
+:root {
+  --mainColor: #ff9800;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  height: 100vh;
+  justify-content: center;
+  font-weight: bold;
+
+}
+
+a {
+  background: linear-gradient(to bottom,
+    var(--mainColor) 0%,
+    var(--mainColor) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #FFF;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+
+a:hover {
+  background-size: 4px 50px;
+}
+
+
+body {
+  background: linear-gradient(
+    45deg,
+    hsl(280, 50%, 60%),
+    hsl(227, 50%, 50%),
+    hsl(245, 50%, 40%),
+    hsl(130, 100%, 130%)
+  );
+  background-size: 2000vw 100vh;
+  animation: animate-bg-pos-size 55s ease infinite;
+}
+
+@keyframes animate-bg-pos-size {
+  0% {
+    background-position-x: 0%;
+  }
+
+  25% {
+    background-position-x: 100%;
+    background-size: 2000vw 2000vh;
+  }
+
+  50% {
+    background-position-y: 80%;
+    background-size: 100vw 2000vh;
+  }
+
+  75% {
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 100vw 200vh;
+  }
+
+  100% {
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: 2000vw 100vh;
+  }
+}
