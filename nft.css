@@ -1,0 +1,232 @@
+body {
+    background: #f5f5fd;
+}
+
+body {
+    color: #3c484e;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+
+a, article, body, div, em, figcaption, figure, h1, h2, h3, h4, h5, h6, header, html, img, li, ol, p, strong, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.post-template .site-principal {
+    padding-bottom: 4vw;
+    background: #fff;
+}
+
+.exterieur {
+    position: relative;
+    padding: 0 4vw;
+}
+
+.interieur {
+    margin: 0 auto;
+    max-width: 920px;
+    width: 100%;
+}
+
+.post-entier {
+    position: relative;
+}
+
+.post-entier-en-tete {
+    margin: 0 auto;
+    padding: 6vw 3vw 3vw;
+    max-width: 1040px;
+    text-align: center;
+}
+
+.post-entier-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #738a94;
+    font-size: 1.0rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.post-entier-meta-date {
+    color: #5969e2;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+
+}
+
+.post-entier-titre {
+    margin: 0;
+    color: #252931;
+}
+
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.15;
+    text-rendering: optimizeLegibility;
+}
+
+.post-entier-contenu {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 100px;
+    min-height: 230px;
+    font-family: Georgia,serif;
+    font-size: 1.4rem;
+    line-height: 1.6em;
+    background: #fff;
+}
+
+.post-entier-contenu figure {
+    margin: 1.5em 0 3em;
+}
+
+.image2 {
+    margin-bottom: 1.5em!important;
+}
+
+.post-entier-image {
+    width: 100%;
+    margin-top: 0!important;
+    background: #c5d2d9 50%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.post-entier-contenu figure img {
+    margin: 0 auto;
+}
+
+.post-entier-contenu img, {
+    display: block;
+    margin: 1.5em auto;
+    max-height: 500px;
+}
+
+.post-entier-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.post-contenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 920px;
+    font-size: .92em;
+}
+
+ol, p, ul {
+    margin: 0 0 1.5em;
+}
+
+.post-entier-contenu h1, .post-entier-contenu h2, .post-entier-contenu h3, .post-entier-contenu h4, .post-entier-contenu h5, .post-entier-contenu h6, .post-entier-contenu ol, .post-entier-contenu p, .post-entier-contenu ul {
+    min-width: 100%;
+}
+
+.post-entier-contenu h2 {
+    margin: 0.5em 0 0.2em;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.post-entier-contenu h1, .post-entier-contenu h2, .post-entier-contenu h3, .post-entier-contenu h4, .post-entier-contenu h5, .post-entier-contenu h6 {
+    color: #252931;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+}
+
+.post-entier-contenu em, .post-entier-contenu strong {
+    color: #252931;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+.post-entier-contenu figcaption {
+    margin: 1em 0 0;
+    font-size: 80%;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.post-entier-contenu a {
+    color: #000;
+    word-break: break-word;
+    box-shadow: inset 0 -1px 0 #5969e2;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    max-width: 100%;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ol, ul {
+    padding-left: 3.3em;
+}
+
+ol, p, ul {
+    margin: 0 0 1.5em;
+}
+
+.post-entier-contenu li {
+    margin-top: 0;
+}
+
+.post-entier-contenu li {
+    word-break: break-word;
+}
+
+li {
+    margin: 0.5em 0;
+    padding-left: 0.3em;
+    line-height: 1.6em;
+}
+
+.post-entier-contenu h3 {
+    margin: 0.5em 0 0.2em;
+    font-size: 2rem;
+    font-weight: 700;
+}
